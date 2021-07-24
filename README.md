@@ -16,8 +16,9 @@ pip install pandas
 
 
 ## TABLE OF CONTENTS   
-1. [Logistic Regression](##Logistic-Regression)
-2. [KNN classification](##KNN-classification)
+1. [LogisticRegression](##Logistic-Regression)
+2. [KNNclassification](##KNN-classification)   
+3. [SVMclassification](##SVM)
 
 ___
 
@@ -103,8 +104,46 @@ The overall accuracy of this model was observed to be 93 %.
 
 ### **Visualization of Output**  
 
+![KNN](assets/KNN.jpg) 
 
-![KNN](assets/KNN.jpg)
+___ 
 
+## SVM   
+
+“Support Vector Machine” (SVM) is a supervised machine learning algorithm that can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes.   
+
+
+### **Steps Involved**   
+1. Importing the libraries.
+2. Importing the dataset.
+3. Splitting the dataset to training and testing sets.
+4. Feature Scaling.
+5. Training the SVM classidication model on training set.
+6. Predicting a new result.
+7. Predicting the test result.
+8. Making the confusion matrix.
+9. Visualizing the training set results.
+10. Visualizing the testing set results.   
+
+ ### **Observation**   
+
+ The confusion matrix observed,   
+ |   63  |   5	|
+|---	|---	|
+|   7	|  25	|
+
+Where,   
+True positive = 63  
+False negative = 5   
+True negative = 25   
+False positve = 7  
+
+The overall accuracy of this model was observed to be 88 %.
+
+### **Visualization of Output**
+
+![SVM](assets/SVM.jpg) 
+
+___
 
 
