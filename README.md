@@ -103,7 +103,8 @@ The overall accuracy of this model was observed to be 93 %.
 
 ### **Visualization of Output**  
 
+
 ![KNN](assets/KNN.jpg)
- ___   
+
 
 
