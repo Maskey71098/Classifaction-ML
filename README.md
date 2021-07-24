@@ -46,7 +46,7 @@ The overall accuracy of this model was observed to be 87 %.
 
 ### **Visualization of Output**  
 
-![Linear Regression](https://raw.githubusercontent.com/Maskey71098/Classification-algorithms-ML/main/assets/Linear Regression.JPG?raw=true "Linear Regression")  
+![Logistic Regression](https://raw.githubusercontent.com/Maskey71098/Classification-algorithms-ML/main/assets/Logistic Regression.jpg?raw=true "Logistic Regression")  
  ___   
 
 ## KNN Classification   
@@ -92,7 +92,7 @@ The overall accuracy of this model was observed to be 93 %.
 
 ### **Visualization of Output**  
 
-![Knn Classification](https://raw.githubusercontent.com/Maskey71098/Classification-algorithms-ML/main/assets/KNN.JPG?raw=true "Linear Regression")  
+![Knn Classification](https://raw.githubusercontent.com/Maskey71098/Classification-algorithms-ML/main/assets/KNN.jpg?raw=true "KNN")  
  ___   
 
 
