@@ -1,7 +1,18 @@
 # Classifaction-algorithms-ML  
 This is a simple implementation of all the regression models used in Machine Learning using python.
 
-___
+___   
+
+# Installations 
+
+```python
+pip install numpy   
+pip intall matplotlib   
+pip install pandas   
+
+```
+
+>Note* The dataset used is named "Social_Network_Ads.csv"
 
 
 ## TABLE OF CONTENTS   
@@ -46,7 +57,7 @@ The overall accuracy of this model was observed to be 87 %.
 
 ### **Visualization of Output**  
 
-![Linear Regression](https://raw.githubusercontent.com/Maskey71098/Classification-algorithms-ML/main/assets/Linear Regression.JPG?raw=true "Linear Regression")  
+![Logistic-Regression](assets/Linear%20Regression.jpg)  
  ___   
 
 ## KNN Classification   
@@ -92,7 +103,7 @@ The overall accuracy of this model was observed to be 93 %.
 
 ### **Visualization of Output**  
 
-![Knn Classification](https://raw.githubusercontent.com/Maskey71098/Classification-algorithms-ML/main/assets/KNN.JPG?raw=true "Linear Regression")  
+![KNN](assets/KNN.jpg)
  ___   
 
 
