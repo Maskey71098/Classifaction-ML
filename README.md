@@ -16,9 +16,10 @@ pip install pandas
 
 
 ## TABLE OF CONTENTS   
-1. [LogisticRegression](##Logistic-Regression)
-2. [KNNclassification](##KNN-classification)   
-3. [SVMclassification](##SVM)
+1. [Logistic Regression](##Logistic-Regression)
+2. [KNN classification](##KNN-classification)   
+3. [SVM classification](##SVM)
+4. [Kernal SVM classification](##KernalSVM)
 
 ___
 
@@ -144,6 +145,55 @@ The overall accuracy of this model was observed to be 88 %.
 
 ![SVM](assets/SVM.jpg) 
 
+___   
+
+## Kernal SVM
+
+Kernal SVM is similar to SVM classifaction except for the fact that non-linear models can be created by using kernals.   
+
+*Pros:*   
+* It works really well with a clear margin of separatio.    
+* It is effective in high dimensional spaces.
+* It is effective in cases where the number of dimensions is greater than the number of samples.   
+* It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.   
+
+*Cons:*
+* It doesn’t perform well when we have large data set because the required training time is higher.
+* It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping.
+* SVM doesn’t directly provide probability estimates, these are calculated using an expensive five-fold cross-validation. 
+* It is included in the related SVC method of Python scikit-learn library.   
+
+### **Steps Involved**   
+1. Importing the libraries.
+2. Importing the dataset.
+3. Splitting the dataset to training and testing sets.
+4. Feature Scaling.
+5. Training the Kernal SVM classidication model on training set.
+6. Predicting a new result.
+7. Predicting the test result.
+8. Making the confusion matrix.
+9. Visualizing the training set results.
+10. Visualizing the testing set results.   
+
+ ### **Observation**   
+
+ The confusion matrix observed,   
+ |   64  |   4	|
+|---	|---	|
+|   3	|  29	|
+
+Where,   
+True positive = 64  
+False negative = 4   
+True negative = 29   
+False positve = 3 
+
+The overall accuracy of this model was observed to be 93 %.   
+
+## Visualisation of output   
+
+![Kernal SVM](assets/KERNALSVM.jpg)
+
 ___
 
-
+ 
