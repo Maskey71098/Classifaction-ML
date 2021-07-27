@@ -21,6 +21,8 @@ pip install pandas
 3. [SVM classification](##SVM)
 4. [Kernal SVM classification](##KernalSVM)
 5. [Naive Bayes classification](##Naive)
+6. [Decision Tree classification](##decision)
+7. [Random Forest classification](##random)
 
 ___
 
