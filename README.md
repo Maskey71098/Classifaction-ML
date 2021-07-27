@@ -84,7 +84,7 @@ Step 4: Assign the new data point to the category where you counted the most nei
 2. Importing the dataset.
 3. Splitting the dataset to training and testing sets.
 4. Feature Scaling.
-5. Training the Knn classidication model on training set.
+5. Training the Knn classification model on training set.
 6. Predicting a new result.
 7. Predicting the test result.
 8. Making the confusion matrix.
@@ -122,7 +122,7 @@ ___
 2. Importing the dataset.
 3. Splitting the dataset to training and testing sets.
 4. Feature Scaling.
-5. Training the SVM classidication model on training set.
+5. Training the SVM classification model on training set.
 6. Predicting a new result.
 7. Predicting the test result.
 8. Making the confusion matrix.
@@ -171,7 +171,7 @@ Kernal SVM is similar to SVM classifaction except for the fact that non-linear m
 2. Importing the dataset.
 3. Splitting the dataset to training and testing sets.
 4. Feature Scaling.
-5. Training the Kernal SVM classidication model on training set.
+5. Training the Kernal SVM classification model on training set.
 6. Predicting a new result.
 7. Predicting the test result.
 8. Making the confusion matrix.
@@ -216,7 +216,7 @@ P(A|B) = [P(B|A) * P(A)] / P(B)
 2. Importing the dataset.
 3. Splitting the dataset to training and testing sets.
 4. Feature Scaling.
-5. Training the Naive Bayes classidication model on training set.
+5. Training the Naive Bayes classification model on training set.
 6. Predicting a new result.
 7. Predicting the test result.
 8. Making the confusion matrix.
@@ -257,7 +257,7 @@ A decision tree simply asks a question, and based on the answer (Yes/No), it fur
 2. Importing the dataset.
 3. Splitting the dataset to training and testing sets.
 4. Feature Scaling.
-5. Training the Decision Tree classidication model on training set.
+5. Training the Decision Tree classification model on training set.
 6. Predicting a new result.
 7. Predicting the test result.
 8. Making the confusion matrix.
@@ -283,5 +283,50 @@ The overall accuracy of this model was observed to be 90 %.
 
 ![Kernal SVM](assets/decisiontree.jpg)   
 
+___   
+
+## Random Forest Classification   
+Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It can be used for both Classification and Regression problems in ML. It is based on the concept of ensemble learning, which is a process of combining multiple classifiers to solve a complex problem and to improve the performance of the model.
+As the name suggests, "Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset." Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
+The greater number of trees in the forest leads to higher accuracy and prevents the problem of overfitting.   
+
+### Algorithm:   
+**Step 1:**  Pick a random K points from the Training Set.   
+**Step 2:**  Build the decision tree associated to these K data points.   
+**Step 3:**  Choose the number N tree of trees you want to buld and repeat steps 1 & 2.   
+**Step 4:**  For a new data point, make each one of your N trees predict the category to which data points belong and assign the new data point to the category which has the majority vote.  
+
+### **Steps Involved**   
+1. Importing the libraries.
+2. Importing the dataset.
+3. Splitting the dataset to training and testing sets.
+4. Feature Scaling.
+5. Training the Random Forest classification model on training set.
+6. Predicting a new result.
+7. Predicting the test result.
+8. Making the confusion matrix.
+9. Visualizing the training set results.
+10. Visualizing the testing set results.   
+
+ ### **Observation**   
+
+ The confusion matrix observed,   
+ |   63  |   5	|
+|---	|---	|
+|   5	|  27	|
+
+Where,   
+True positive = 61
+False negative = 7   
+True negative = 29 
+False positve = 3
+
+The overall accuracy of this model was observed to be 90 %.   
+
+## Visualisation of output   
+
+![Kernal SVM](assets/randomforest.jpg)   
 ___
+___
+
 
