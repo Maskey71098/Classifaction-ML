@@ -36,7 +36,7 @@ ___
 
 ___  
 
-# Implementation
+# **Implementation**
 
 >Note* The dataset used is named "Social_Network_Ads.csv"   
 
@@ -273,6 +273,28 @@ The overall accuracy of this model was observed to be 90 %.
 ![Kernal SVM](assets/randomforest.jpg)   
 ___
 ___
+
+# **Model Selection**
+
+>Note* The dataset used for this template is 'Data.csv'. 
+
+For Model Selection, we apply the dataset to all the classification algorithm models. The necesary data preprocessing must be done if required, the data preprocessing templates can be found [here][1].   
+
+[1]:<https://github.com/Maskey71098/Data-Preprocessing-ML> "here"   
+
+## Observations   
+
+| S.N 	| Algorithm           	| TP  	| FP 	| TN 	| FN 	| Accuracy           	|
+|-----	|---------------------	|-----	|----	|----	|----	|--------------------	|
+| 1.  	| Logistic regression 	| 103 	| 4  	| 59 	| 5  	| 0.9473684210526315 	|
+| 2.  	| KNN                 	| 103 	| 4  	| 59 	| 5  	| 0.9473684210526315 	|
+| 3.  	| SVM                 	| 102 	| 5  	| 59 	| 5  	| 0.941520467836573  	|
+| 4.  	| Kernal SVM          	| 102 	| 5  	| 61 	| 3  	| 0.9532163742690059 	|
+| 5.  	| Naive Bayes         	| 99  	| 8  	| 62 	| 2  	| 0.9415204678362573 	|
+| 6.  	| Decision Tree       	| 103 	| 4  	| 61 	| 3  	| 0.959064327485301  	|
+| 7.  	| Random Forest       	| 102 	| 5  	| 58 	| 6  	| 0.935672514619883  	|
+
+>Hence, Since Decision Tree Classification has the highest accuracy, we select decision tree as our mode!
 
 # Contributions   
 
