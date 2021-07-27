@@ -20,6 +20,7 @@ pip install pandas
 2. [KNN classification](##KNN-classification)   
 3. [SVM classification](##SVM)
 4. [Kernal SVM classification](##KernalSVM)
+5. [Naive Bayes classification](##Naive)
 
 ___
 
@@ -194,6 +195,48 @@ The overall accuracy of this model was observed to be 93 %.
 
 ![Kernal SVM](assets/KERNALSVM.jpg)
 
-___
+___   
 
- 
+## Naive Bayes Classifcation    
+Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems.
+It is mainly used in text classification that includes a high-dimensional training dataset.
+Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions.
+It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
+Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles. It is called Naïve because it assumes that the occurrence of a certain feature is independent of the occurrence of other features. Such as if the fruit is identified on the bases of color, shape, and taste, then red, spherical, and sweet fruit is recognized as an apple. Hence each feature individually contributes to identify that it is an apple without depending on each other.   
+
+```
+P(A|B) = [P(B|A) * P(A)] / P(B)
+
+```   
+
+### **Steps Involved**   
+1. Importing the libraries.
+2. Importing the dataset.
+3. Splitting the dataset to training and testing sets.
+4. Feature Scaling.
+5. Training the Naive Bayes classidication model on training set.
+6. Predicting a new result.
+7. Predicting the test result.
+8. Making the confusion matrix.
+9. Visualizing the training set results.
+10. Visualizing the testing set results.   
+
+ ### **Observation**   
+
+ The confusion matrix observed,   
+ |   64  |   4	|
+|---	|---	|
+|   5	|  27	|
+
+Where,   
+True positive = 64  
+False negative = 4   
+True negative = 27 
+False positve = 5
+
+The overall accuracy of this model was observed to be 91 %.   
+
+## Visualisation of output   
+
+![Kernal SVM](assets/NAIVEBAYES.jpg)   
+___
