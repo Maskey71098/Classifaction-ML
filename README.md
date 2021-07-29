@@ -26,13 +26,14 @@ ___
 
 
 ## TABLE OF CONTENTS   
-1. Logistic Regression
-2. KNN classification
-3. SVM classification
-4. Kernal SVM classification
-5. Naive Bayes classification
-6. Decision Tree classification
-7. Random Forest classification
+
+1. **Logistic Regression**
+2. **KNN classification**
+3. **SVM classification**
+4. **Kernal SVM classification**
+5. **Naive Bayes classification**
+6. **Decision Tree classification**
+7. **Random Forest classification**
 
 ___  
 
