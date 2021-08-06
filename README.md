@@ -13,7 +13,7 @@ pip install pandas
 ```   
 ___
 
-# Table Contents
+# Table of Contents
 
 |  S.N 	| TITLE 	|  Description  	| Dataset used  	|
 |---	|---	|---	|---	|
